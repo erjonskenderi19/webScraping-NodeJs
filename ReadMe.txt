@@ -2,9 +2,11 @@
 
 Test assignment for candidates at IbisSoft
 
-## Getting Started
+##Getting started
+To get the Node server running locally:
 
-These instructions will help to  run the project on your local machine for development and testing purposes. 
+Clone this repo
+npm install to install all required dependencies
 
 ### Run in Web
 
@@ -18,7 +20,11 @@ $ nodemon run "benz"
 
 $ npm test 
 
+##Code Overview
 
+Dependencies
+expressjs - The server for handling and routing HTTP requests
+cheerio - Manipulating the resulting data structure
 
 ## Built With
 
